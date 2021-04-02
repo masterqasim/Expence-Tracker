@@ -1,0 +1,33 @@
+.App {
+  /* text-align: center; */
+  /* width: 350px; */
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+  /* margin: auto; */
+}
+body{
+  /* background-image: url(./images/expenceTrackerBg.png); */
+}
+
+.Balance-header{
+  background-color: #bed0f5;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+
+  /* display: inline; */
+}
+.Balance-section{
+  margin: 5px;
+  font-size: large;
+}
+@media only screen and (max-width: 600px) {
+  body {
+     background-image: url(./images/expenceTrackerBg.png); 
+  } 
+  .bgimg{
+    display: none;
+  }
+}
